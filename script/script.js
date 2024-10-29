@@ -1,5 +1,5 @@
 "use strict"
-console.clear;
+console.clear();
 
 /* Consegna:
 Scrivi un programma che stampi i numeri da 1 a 100,
