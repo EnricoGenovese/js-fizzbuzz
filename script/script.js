@@ -15,3 +15,13 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.               
 // L'unica variabile (o meglio costante) necessaria è il numero più alto da restituire a terminale;
 // questo fungerà da valore per il quale il ciclo 'for' interromperà l'iterazione.
 
+const numbers = 100;
+
+// 2 For loop: 
+// Fizz when n % 3 === 0;
+// Buzz when n % 5 === 0;
+// FizzBunz when n % 3 === 0 && n % 5 === 0;
+
+for(let i = 1; i <= 100; i++) {
+    console.log(i);
+}
