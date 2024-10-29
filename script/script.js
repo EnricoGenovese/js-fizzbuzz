@@ -23,9 +23,17 @@ const numbers = 100;
 // FizzBunz when n % 3 === 0 && n % 5 === 0;
 
 for(let i = 1; i <= 100; i++) {
-    if (i % 3 === 0 && i % 5 === 0) {
+    if (i % 3 === 0 && i % 5 === 0) {   // gets all numbers perfecly divisible by both 3 and 5 (eg. 15, 30, 45, ect.)
         console.log("FizzBuzz");
-    } else if (i % 3 === 0) {
+    }                   
+    //
+    else if (i % 3 === 0) {             // does not get numbers like 15 or 45 (already modified by the 'if' above)
         console.log("Fizz");
-    } else console.log(i)
+    } 
+    //
+    else if (i % 5 === 0) {             // all remaining numbers divisible by 5 are modified (eg. 25, 50, 80, etc)
+        console.log("Buzz");
+    }
+    //
+    else console.log(i)                 // all remaining numbers are printed as integers to the console
 }
