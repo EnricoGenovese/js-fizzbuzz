@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 console.clear();
 
 /* Consegna:
@@ -22,7 +22,7 @@ const numbers = 100;
 // Buzz when n % 5 === 0;
 // FizzBunz when n % 3 === 0 && n % 5 === 0;
 
-for(let i = 1; i <= 100; i++) {
+for(let i = 1; i <= numbers; i++) {
     if (i % 3 === 0 && i % 5 === 0) {   // gets all numbers perfecly divisible by both 3 and 5 (eg. 15, 30, 45, ect.)
         console.log("FizzBuzz");
     }                   
@@ -35,5 +35,5 @@ for(let i = 1; i <= 100; i++) {
         console.log("Buzz");
     }
     //
-    else console.log(i)                 // all remaining numbers are printed as integers to the console
+    else console.log(i);                 // all remaining numbers are printed as integers to the console
 }
