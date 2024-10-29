@@ -23,5 +23,7 @@ const numbers = 100;
 // FizzBunz when n % 3 === 0 && n % 5 === 0;
 
 for(let i = 1; i <= 100; i++) {
-    console.log(i);
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log("FizzBuzz");
+    } else console.log(i)
 }
